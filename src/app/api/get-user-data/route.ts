@@ -9,7 +9,7 @@ export async function GET(request: Request) {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
-        Authorization: `bearer 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`,
+        Authorization: `bearer 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`,
         "X-GitHub-Api-Version": "2022-11-28",
       },
     });
