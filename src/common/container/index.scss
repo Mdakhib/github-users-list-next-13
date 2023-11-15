@@ -1,0 +1,16 @@
+.container {
+  background: #f6f7fa;
+  height: 100% !important;
+
+  .container-wrap {
+    padding: 40px 16px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    .container-wrap {
+      padding: 40px 32px;
+    }
+  }
+}

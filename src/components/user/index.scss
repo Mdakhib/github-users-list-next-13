@@ -1,0 +1,15 @@
+.user-card-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 40px;
+  font-size: 24px;
+
+  @media only screen and (min-width: 768px) {
+    font-size: 32px;
+  }
+}
